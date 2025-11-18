@@ -66,15 +66,10 @@ body {
 .section-title {
   font-size: 18px;
   font-weight: 700;
-  margin: 22px 0 10px;
-  padding-top: 12px;
-  border-top: 2px solid #000;  /* 섹션 위에 선 */
-}
-
-/* 첫 번째 섹션(SUMMARY)은 위에 헤더랑 바로 붙게 – 선 한 줄만 보이도록 */
-.section-title:first-of-type {
-  border-top: none;
-  padding-top: 0;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  /* border-top: 2px solid #000;  ← 이 줄 삭제 */
+  padding-top: 0;               /* 같이 0으로 */
 }
 
 /* ============ 회사명 + 우측 위치/연도 정렬 ============ */

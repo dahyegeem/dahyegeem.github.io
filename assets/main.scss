@@ -112,3 +112,10 @@ body {
 p {
   text-align: justify;
 }
+
+/* strong 볼드 자간 튀는 문제 해결 */
+strong {
+  letter-spacing: normal !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+}

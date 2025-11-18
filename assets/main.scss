@@ -14,14 +14,14 @@ body {
   line-height: 1.55;
 }
 
-/* ============ 페이지 전체 폭 (이력서 느낌) ============ */
+/* ============ 페이지 폭 (A4 이력서 느낌) ============ */
 .page-content {
   max-width: 760px;
-  margin: 20px auto; /* ← 위 여백 줄였음 */
-  padding: 0 24px;
+  margin: 24px auto 44px;  /* 위/아래 여백 */
+  padding: 0 32px;
 }
 
-/* ============ 헤더 (Github 상단 바) ============ */
+/* ============ 상단 GitHub 헤더 정리 ============ */
 .site-header {
   border-bottom: none !important;
   padding: 6px 0 !important;
@@ -29,43 +29,43 @@ body {
 
 .site-title,
 .site-nav .page-link {
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui,
+    "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
 }
 
 /* ============ 이름 / 직함 / 연락처 ============ */
-
 .resume-header {
   text-align: center;
-  margin-top: 16px; /* ↑ 여백 줄임 */
-  margin-bottom: 24px;
+  margin-top: 12px;
+  margin-bottom: 22px;
 }
 
 .resume-header h1 {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin: 0 0 4px 0;
 }
 
 .resume-header h2 {
   font-size: 22px;
   font-weight: 700;
-  margin-top: 4px;
-  margin-bottom: 10px;
+  margin: 4px 0 8px 0;
 }
 
 .resume-header .contact {
   font-size: 15px;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
-/* ============ 섹션 타이틀 (SUMMARY / EXPERIENCE) ============ */
-.section-title {
+/* ============ 섹션 타이틀 (SUMMARY / EXPERIENCE 등) ============ */
+.section-title,
+.page-content h2 {
   font-size: 18px;
   font-weight: 700;
   margin-top: 26px;
   margin-bottom: 10px;
-  padding-top: 12px;
+  padding-top: 10px;
   border-top: 2px solid #000;
 }
 
@@ -73,8 +73,8 @@ body {
 .company-row {
   display: flex;
   justify-content: space-between;
+  margin-top: 16px;
   font-weight: 700;
-  margin-top: 14px;
 }
 
 .company-row .company {
@@ -86,22 +86,29 @@ body {
   text-align: right;
 }
 
-/* 역할명 */
+/* 역할명(직무 타이틀) */
 .role-title {
   font-weight: 700;
   margin-top: 4px;
   margin-bottom: 6px;
 }
 
-/* ============ 본문 텍스트 ============ */
+/* 연도 라인만 따로 쓴 경우 */
+.year-line {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 6px;
+}
 
+/* ============ 본문 텍스트 & 리스트 ============ */
 .page-content p {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  text-align: justify;   /* 양쪽 정렬 */
 }
 
 .page-content ul {
   margin-top: 4px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   padding-left: 22px;
 }
 
@@ -109,11 +116,7 @@ body {
   margin-bottom: 4px;
 }
 
-p {
-  text-align: justify;
-}
-
-/* strong 볼드 자간 튀는 문제 해결 */
+/* ============ 볼드 자간/폰트 깨짐 방지 ============ */
 strong {
   letter-spacing: normal !important;
   font-family: inherit !important;

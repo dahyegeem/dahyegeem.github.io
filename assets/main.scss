@@ -11,7 +11,17 @@ body {
   line-height: 1.6;
 }
 
-/* 제목 중앙 정렬 & 조금 굵게 등등 나중에 더 커스터마이징 가능 */
+/* 제목 중앙 정렬 & 조금 큼 */
 h1, h2, h3 {
   letter-spacing: 0.02em;
+}
+
+/* ===== 테스트용 강한 스타일 ===== */
+body {
+  background-color: #f5f0ff;   /* 연보라 배경 */
+}
+
+h1 {
+  color: #d32f2f;              /* 빨간색 타이틀 */
+  text-transform: uppercase;   /* 전부 대문자 */
 }

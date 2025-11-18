@@ -21,8 +21,8 @@ title: Dahye Grey Kim
   <div class="meta">2024 – Present</div>
 </div>
 <ul>
-  <li>Designed and launched online/offline communities (Netple, Trevari, etc.).</li>
-  <li>Produced content campaigns for publishers and Web3 brands.</li>
+  <li>Designed and launched online/offline communities (Nfyg, Trevari, etc.).</li>
+  <li>Produced content campaigns for publishers (Eoding)</li>
   <li>Facilitated DAO-style discussions and created insight reports.</li>
 </ul>
 

@@ -1,49 +1,47 @@
-/* ===========================
-   Home layout header (index.md)
-   =========================== */
+---
+---
 
-/* index.md 전체 박스 여백 정리 (A4 한 페이지 느낌 유지) */
-.home {
-  max-width: 760px;
+@import "minima";
+
+/* 화면 전체 배경 색 – 진짜 티 나게 */
+body {
+  background-color: #fffaf0; /* 크림색 배경 */
+  font-family: "Times New Roman", Georgia, "Times", serif;
+}
+
+/* 페이지 전체 폭 좀 줄이기 */
+.page-content {
+  max-width: 700px;
   margin: 0 auto;
-  padding: 3rem 1.5rem 4rem;
 }
 
-/* 첫 번째 H1: "Kim Dahye Portfolio" */
-.home h1:first-of-type {
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 700;
+/* 상단 제목들 스타일 */
+h1, h2, h3 {
+  font-family: "Times New Roman", Georgia, "Times", serif;
   letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 0.4rem;
 }
 
-/* 두 번째 줄: "Kim Dahye" */
-.home h2:first-of-type {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 0.3rem;
+/* 사이트 제목 (왼쪽 상단) */
+.site-title {
+  font-weight: 700;
+  font-size: 20px;
 }
 
-/* 세 번째 줄: 직함 */
-.home > p:first-of-type {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0.35rem;
+/* 네비게이션(오른쪽 상단) */
+.site-nav .page-link {
+  font-size: 14px;
 }
 
-/* 네 번째 줄: 위치 + 연락처 */
-.home > p:nth-of-type(2) {
-  text-align: center;
-  font-size: 0.95rem;
-  margin-top: 0;
-  margin-bottom: 1.4rem;
+/* 섹션 제목 (SUMMARY, PROFESSIONAL EXPERIENCE 등) */
+h2 {
+  font-size: 20px;
+  margin-top: 48px;
+  border-top: 2px solid #000;
+  padding-top: 16px;
 }
 
-/* 이후 섹션(SUMMARY, PROFESSIONAL EXPERIENCE)은 왼쪽 정렬 유지 */
-.home h3 {
-  text-align: left;
+/* 본문 텍스트 간격 */
+p, li {
+  line-height: 1.6;
+  font-size: 15px;
 }

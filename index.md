@@ -2,7 +2,7 @@
 title: "Dahye Grey Kim"
 ---
 
-# Community & Content Strategist
+# Community Builder & Content Strategist
 
 <span class="subtitle">Seoul, South Korea • 30726@naver.com • +82 10-8834-8319</span>
 

@@ -6,7 +6,7 @@ url: "https://dahyegem.github.io"
 baseurl: ""
 
 sass:
-  sass_dir: assets/css
+  sass_dir: assets
   style: compressed
 
 plugins:
@@ -14,4 +14,3 @@ plugins:
 
 header_pages:
   - about.md
-

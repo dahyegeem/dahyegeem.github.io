@@ -1,8 +1,9 @@
 ---
-title: "Kim Dahye Portfolio"
+title: "Kim Dahye"
 ---
 
-# Kim Dahye
+# Community & Content Strategist
+
 <span class="subtitle">Community & Content Strategist</span>
 
 Seoul, South Korea • planb.grey@gmail.com • +82 10-8834-8319

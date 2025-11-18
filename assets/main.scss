@@ -16,10 +16,10 @@ body {
 
 /* ============ 페이지 전체 폭 (이력서 느낌) ============ */
 .page-content {
-  max-width: 720px;
-  margin: 16px auto 40px;
-  padding: 0 32px;
+  max-width: 720px;   /* 너무 넓으면 720으로 줄여도 됨 */
+  margin: 16px auto 40px;  /* 위 여백 더 줄이고 싶으면 16px 정도로 */
 }
+
 
 /* ============ 상단 GitHub 헤더바 ============ */
 .site-header {

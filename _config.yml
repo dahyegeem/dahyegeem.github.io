@@ -1,3 +1,17 @@
-theme: minima
 title: Kim Dahye Portfolio
 description: 김다혜 포트폴리오
+theme: minima
+
+url: "https://dahyegem.github.io"
+baseurl: ""
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - about.md
+

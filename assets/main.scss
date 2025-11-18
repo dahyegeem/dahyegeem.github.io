@@ -1,120 +1,58 @@
 ---
+layout: default
+title: Dahye Grey Kim
 ---
 
-@import "minima";
+<div class="resume-header">
+  <h1 class="resume-header__name">Dahye Grey Kim</h1>
+  <h2 class="resume-header__title">Community Builder &amp; Content Strategist</h2>
+  <p class="resume-header__contact">
+    Seoul, South Korea &bull; 30726@naver.com &bull; +82 10-8834-8319
+  </p>
+</div>
 
-/* ============ 기본 설정 ============ */
-body {
-  background: #ffffff;
-  font-family: "Times New Roman", Georgia, serif;
-  font-size: 16px;
-  color: #111;
-  margin: 0;
-  padding: 0;
-  line-height: 1.55;
-}
+<div class="resume-section">
+  <h2 class="resume-section__title">SUMMARY</h2>
+  <p>
+    <strong>7+ years of experience</strong> building storytelling-driven communities and
+    leading multi-format content campaigns. Skilled at translating project narratives
+    into platform-ready media across social channels, events, and learning environments.
+    Experience includes community leadership, content planning, and media production
+    across publishing projects, organizational culture programs, workplace
+    communities, and university mentoring initiatives.
+  </p>
+</div>
 
-/* ============ 페이지 전체 폭 (이력서 느낌) ============ */
-.page-content {
-  max-width: 720px;   /* 너무 넓으면 720으로 줄여도 됨 */
-  margin: 16px auto 40px;  /* 위 여백 더 줄이고 싶으면 16px 정도로 */
-}
+<hr class="resume-divider" />
 
+<div class="resume-section">
+  <h2 class="resume-section__title">PROFESSIONAL EXPERIENCE</h2>
 
-/* ============ 상단 GitHub 헤더바 ============ */
-.site-header {
-  border-bottom: 1px solid #f3f3f3;
-  padding: 6px 0;
-}
+  <div class="job">
+    <div class="job-header">
+      <div class="job-header__left">Freelance — Community &amp; Content Strategist</div>
+      <div class="job-header__right">2024 – Present</div>
+    </div>
+    <p class="job-meta">Seoul, South Korea</p>
+    <ul>
+      <li>Designed and launched online/offline communities (Netple, Trevari, etc.).</li>
+      <li>Produced content campaigns for publishers and Web3 brands.</li>
+      <li>Facilitated DAO-style discussions and created insight reports.</li>
+    </ul>
+  </div>
 
-.site-title,
-.site-nav .page-link {
-  font-family: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro Text",
-    "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-}
+  <div class="job">
+    <div class="job-header">
+      <div class="job-header__left">PlanB Design — Senior Consultant &amp; HRBP</div>
+      <div class="job-header__right">2021 – 2024</div>
+    </div>
+    <p class="job-meta">Seoul, South Korea</p>
+    <ul>
+      <li>Led onboarding campaigns using webtoons, videos, and interactive content.</li>
+      <li>Designed organizational workshops for Hyundai, KT, and Daesang.</li>
+      <li>Managed 700-member community and created trend reports.</li>
+    </ul>
+  </div>
 
-/* ============ 이력서 헤더: 이름 / 직함 / 연락처 ============ */
-.resume-header {
-  text-align: center;
-  margin-top: 24px;
-  margin-bottom: 20px;
-  /* ⬇️ 여기서 border-bottom 빼서 SUMMARY 위에 선이 한 줄만 보이게 */
-  /* border-bottom: 2px solid #000; */
-}
-
-.resume-header h1 {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 0 0 4px;
-}
-
-.resume-header h2 {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0 0 6px;
-}
-
-.resume-header .contact,
-.resume-header p {
-  font-size: 14px;
-  margin: 0;
-  text-align: center;  /* ⬅️ 연락처 줄 강제 중앙 정렬 */
-}
-
-/* ============ 섹션 타이틀 (SUMMARY / EXPERIENCE 등) ============ */
-.section-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 16px;
-  margin-bottom: 10px;
-  /* border-top: 2px solid #000;  ← 이 줄 삭제 */
-  padding-top: 0;               /* 같이 0으로 */
-}
-
-/* ============ 회사명 + 우측 위치/연도 정렬 ============ */
-.company-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 14px;
-}
-
-.company-row .company {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.company-row .meta {
-  font-size: 15px;
-  text-align: right;
-}
-
-/* 역할명 */
-.role-title {
-  font-weight: 700;
-  margin-top: 4px;
-  margin-bottom: 6px;
-}
-
-/* ============ 본문 텍스트 & 리스트 ============ */
-.page-content > p {
-  /* ⬅️ 직계 자식 p만 스타일링해서 헤더 안의 p는 안 건드리게 */
-  margin: 0 0 8px;
-  text-align: left;
-}
-
-.page-content ul {
-  margin-top: 4px;
-  margin-bottom: 16px;
-  padding-left: 22px;
-}
-
-.page-content li {
-  margin-bottom: 4px;
-}
-
-/* strong 태그 굵게 */
-.page-content strong {
-  font-weight: 700;
-}
+  <!-- 여기 아래로 다른 경력들 똑같은 패턴으로 추가하면 됨 -->
+</div>

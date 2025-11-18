@@ -1,1 +1,50 @@
+/* 전체 폰트 */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #222;
+}
+
+/* 이름 */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+/* 직함 */
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* SUMMARY, EXPERIENCE 제목들 */
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  margin-top: 40px;
+  padding-bottom: 4px;
+}
+
+/* 회사명 + 위치/기간 */
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+/* bullet 들 */
+ul {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
 

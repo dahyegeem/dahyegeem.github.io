@@ -70,9 +70,9 @@ body {
 .resume-section__title {
   font-size: 18px;
   font-weight: 700;
-  margin: 0;
-  padding-top: 14px;
-  border-top: 2px solid #000;
+  margin: 24px 0 0;   /* 위에 여백만 */
+  padding-top: 0;
+  border-top: none;   /* ← 이거 때문에 줄 두 개였음, 아예 제거 */
 }
 
 /* SUMMARY 아래 들어가는 가로선 */

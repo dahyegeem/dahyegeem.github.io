@@ -11,7 +11,7 @@ title: Dahye Grey Kim
 
 <h2 class="section-title">SUMMARY</h2>
 <p>
-  Community & Media Strategist with 7+ years of experience building storytelling-driven communities and leading multi-format content campaigns. Skilled at translating project narratives into platform-ready media across social channels, events, and learning environments. Experience includes community leadership, content planning, and media production across publishing projects, organizational culture programs, workplace communities, and university mentoring initiatives.
+  7+ years of experience building storytelling-driven communities and leading multi-format content campaigns. Skilled at translating project narratives into platform-ready media across social channels, events, and learning environments. Experience includes community leadership, content planning, and media production across publishing projects, organizational culture programs, workplace communities, and university mentoring initiatives.
 </p>
 
 <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>

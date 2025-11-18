@@ -9,8 +9,3 @@ sass:
   sass_dir: assets
   style: compressed
 
-plugins:
-  - jekyll-seo-tag
-
-header_pages:
-  - about.md

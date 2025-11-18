@@ -5,7 +5,7 @@ title: Dahye Grey Kim
 
 <div class="resume-header">
   <h1>Dahye Grey Kim</h1>
-  <h2>Community & Content Strategist</h2>
+  <h2>Community Builder & Content Strategist</h2>
   <p class="contact">Seoul, South Korea • 30726@naver.com • +82 10-8834-8319</p>
 </div>
 

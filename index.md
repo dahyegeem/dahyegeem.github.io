@@ -17,7 +17,7 @@ title: Dahye Grey Kim
 <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
 
 <div class="company-row">
-  <div class="company">Freelance — Community & Content Strategist</div>
+  <div class="company">Freelance — Community Builder & Content Strategist</div>
   <div class="meta">2024 – Present</div>
 </div>
 <ul>

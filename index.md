@@ -43,4 +43,7 @@ Learning Experience Designer | Community Builder | Content Strategist
 - [Projects](portfolio/projects/index.md)  
 - [Community](portfolio/community/index.md)  
 - [Content Creations](portfolio/contents_creations/index.md)  
-- [SNS Campaigns](portfolio/sns_campaigns/index.md)  
+- [SNS Campaigns](portfolio/sns_campaigns/index.md)
+
+- [About Me](about.md)
+

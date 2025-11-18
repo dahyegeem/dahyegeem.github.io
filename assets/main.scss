@@ -1,47 +1,100 @@
 ---
 ---
 
+/* 기본 테마 제거 */
 @import "minima";
 
-/* 화면 전체 배경 색 – 진짜 티 나게 */
+/* ===== 전체 레이아웃 ===== */
+
 body {
-  background-color: #fffaf0; /* 크림색 배경 */
-  font-family: "Times New Roman", Georgia, "Times", serif;
+  background: #ffffff;
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #111;
+  margin: 0;
+  padding: 0;
 }
 
-/* 페이지 전체 폭 좀 줄이기 */
+/* 페이지 폭: PDF 레주메처럼 좁게 */
 .page-content {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 720px !important;
+  margin: 60px auto !important;
+  padding: 0 20px;
 }
 
-/* 상단 제목들 스타일 */
-h1, h2, h3 {
-  font-family: "Times New Roman", Georgia, "Times", serif;
-  letter-spacing: 0.03em;
+/* ===== 헤더 (상단 네비게이션) ===== */
+
+.site-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  padding: 20px 0;
 }
 
-/* 사이트 제목 (왼쪽 상단) */
 .site-title {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 22px;
   font-weight: 700;
-  font-size: 20px;
 }
 
-/* 네비게이션(오른쪽 상단) */
 .site-nav .page-link {
-  font-size: 14px;
+  font-size: 15px;
+  margin-left: 20px;
 }
 
-/* 섹션 제목 (SUMMARY, PROFESSIONAL EXPERIENCE 등) */
+/* ===== 제목들 ===== */
+
+h1 {
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
 h2 {
-  font-size: 20px;
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: 700;
+  font-size: 22px;
   margin-top: 48px;
+  margin-bottom: 16px;
   border-top: 2px solid #000;
   padding-top: 16px;
 }
 
-/* 본문 텍스트 간격 */
-p, li {
+h3 {
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+/* ===== 본문 텍스트 ===== */
+
+p {
+  margin-bottom: 14px;
+  font-size: 16px;
   line-height: 1.6;
+}
+
+ul {
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== 회사명 + 직책 줄 ===== */
+.job-title-line {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+/* ===== 연도 줄 ===== */
+.year-line {
   font-size: 15px;
+  margin-bottom: 12px;
+  font-style: italic;
 }

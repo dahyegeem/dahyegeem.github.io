@@ -17,7 +17,7 @@ body {
 /* ============ 페이지 전체 폭 (이력서 느낌) ============ */
 .page-content {
   max-width: 720px;
-  margin: 16px auto 40px;   /* 상단 여백 줄이고 전체 가운데 정렬 */
+  margin: 16px auto 40px;
   padding: 0 32px;
 }
 
@@ -39,8 +39,8 @@ body {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #000;   /* 이름 블록 밑에 딱 한 줄 */
+  /* ⬇️ 여기서 border-bottom 빼서 SUMMARY 위에 선이 한 줄만 보이게 */
+  /* border-bottom: 2px solid #000; */
 }
 
 .resume-header h1 {
@@ -55,9 +55,11 @@ body {
   margin: 0 0 6px;
 }
 
-.resume-header .contact {
+.resume-header .contact,
+.resume-header p {
   font-size: 14px;
   margin: 0;
+  text-align: center;  /* ⬅️ 연락처 줄 강제 중앙 정렬 */
 }
 
 /* ============ 섹션 타이틀 (SUMMARY / EXPERIENCE 등) ============ */
@@ -66,7 +68,13 @@ body {
   font-weight: 700;
   margin: 22px 0 10px;
   padding-top: 12px;
-  border-top: 2px solid #000;   /* 섹션 위에 선 */
+  border-top: 2px solid #000;  /* 섹션 위에 선 */
+}
+
+/* 첫 번째 섹션(SUMMARY)은 위에 헤더랑 바로 붙게 – 선 한 줄만 보이도록 */
+.section-title:first-of-type {
+  border-top: none;
+  padding-top: 0;
 }
 
 /* ============ 회사명 + 우측 위치/연도 정렬 ============ */
@@ -87,7 +95,7 @@ body {
   text-align: right;
 }
 
-/* 역할명 (예: Community & Content Strategist) */
+/* 역할명 */
 .role-title {
   font-weight: 700;
   margin-top: 4px;
@@ -95,9 +103,10 @@ body {
 }
 
 /* ============ 본문 텍스트 & 리스트 ============ */
-.page-content p {
+.page-content > p {
+  /* ⬅️ 직계 자식 p만 스타일링해서 헤더 안의 p는 안 건드리게 */
   margin: 0 0 8px;
-  text-align: left;        /* 이상한 벌어짐 방지 – 그냥 왼쪽 정렬 */
+  text-align: left;
 }
 
 .page-content ul {
@@ -110,7 +119,7 @@ body {
   margin-bottom: 4px;
 }
 
-/* strong 태그(예: 7+ years of experience)는 기본 굵게 유지 */
+/* strong 태그 굵게 */
 .page-content strong {
   font-weight: 700;
 }

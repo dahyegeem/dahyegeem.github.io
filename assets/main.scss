@@ -1,7 +1,6 @@
 ---
 ---
 
-/* 기본 Jekyll 테마 불러오기 */
 @import "minima";
 
 /* ===== 전체 레이아웃 ===== */
@@ -16,19 +15,18 @@ body {
   padding: 0;
 }
 
-/* 본문 영역: PDF 레주메처럼 좁게 */
+/* 본문 영역: A4 레주메 느낌 */
 .page-content {
-  max-width: 720px !important;
-  margin: 40px auto !important; /* 위쪽 여백 조금 줄임 */
+  max-width: 680px !important;   /* 조금 더 좁게 */
+  margin: 32px auto !important;  /* 위 여백 약간 줄임 */
   padding: 0 20px;
 }
 
-/* ===== 상단 헤더(검은 줄 위 메뉴) ===== */
-/* 이 부분은 너무 레주메 같지 않게, 화면용 메뉴 느낌으로만 둠 */
+/* ===== 상단 헤더(사이트 타이틀 / 메뉴) ===== */
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
-  padding: 12px 0;
+  padding: 10px 0;
   margin: 0;
 }
 
@@ -51,69 +49,69 @@ body {
   margin-bottom: 10px;
 }
 
-/* 첫 번째 H1: "Kim Dahye Portfolio" */
+/* 첫 번째 H1: Kim Dahye Portfolio */
 .page-content h1:first-of-type {
   font-size: 30px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
-/* 두 번째 H1: 바로 뒤에 나오는 "Kim Dahye" */
+/* 두 번째 H1: Kim Dahye */
 .page-content h1:first-of-type + h1 {
   font-size: 28px;
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 24px;
+  margin-top: 6px;
+  margin-bottom: 22px;
 }
 
-/* 섹션 제목 (SUMMARY, PROFESSIONAL EXPERIENCE 등) */
+/* 섹션 타이틀 (SUMMARY, PROFESSIONAL EXPERIENCE) */
 .page-content h2 {
   font-family: "Times New Roman", Georgia, serif;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 40px;
-  margin-bottom: 14px;
+  margin-top: 34px;
+  margin-bottom: 12px;
   border-top: 2px solid #000;
-  padding-top: 14px;
+  padding-top: 12px;
 }
 
-/* 소제목 (회사명 정도에 쓸 수 있음) */
+/* 소제목(회사명 등) */
 .page-content h3 {
   font-family: "Times New Roman", Georgia, serif;
   font-weight: 700;
   font-size: 17px;
-  margin-top: 24px;
-  margin-bottom: 6px;
+  margin-top: 22px;
+  margin-bottom: 4px;
 }
 
 /* ===== 본문 텍스트 & 리스트 ===== */
 
 .page-content p {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.6;
 }
 
 .page-content ul {
-  margin-top: 4px;
-  margin-bottom: 18px;
+  margin-top: 2px;
+  margin-bottom: 14px;
   padding-left: 22px;
 }
 
 .page-content li {
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
-/* 직책 줄 (Freelance — … 같은 줄에 쓰고 싶으면 클래스 달아서 사용) */
+/* 직책 줄 */
 .job-title-line {
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 2px;
 }
 
-/* 연도 줄 (2024 – Present 같은 줄) */
+/* 연도 줄 */
 .year-line {
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-style: italic;
 }

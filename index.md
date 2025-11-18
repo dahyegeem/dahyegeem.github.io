@@ -6,7 +6,7 @@ title: "Kim Dahye"
 
 <span class="subtitle">Community & Content Strategist</span>
 
-Seoul, South Korea • planb.grey@gmail.com • +82 10-8834-8319
+Seoul, South Korea • 30726@naver.com • +82 10-8834-8319
 
 ## SUMMARY
 Community builder & content strategist with experience across Web3, education, publishing, and organizational culture.

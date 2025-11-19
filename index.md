@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Kim Dahye Portfolio
 ---
 
 <div class="resume-header">

@@ -61,3 +61,11 @@ title: Dahye Grey Kim
 
   <!-- 필요하면 아래에 다른 회사/경력 계속 같은 패턴으로 추가 -->
 </div>
+
+**EDUCATION**
+
+Kookmin University — B.A. in Education & Business Administration  
+Seoul, South Korea · 2010–2016  
+
+Yonsei University — M.A. in Human Resource Development (expected Feb 2026)  
+Seoul, South Korea · 2021–2026
